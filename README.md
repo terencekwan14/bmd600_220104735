@@ -83,19 +83,19 @@ bmd600_220104735/
 ├── northern_mtDNA.fasta                                             #the northern mtDNA consensus sequence
 ├── northern_mtDNA_reverse.fasta                                     #reverse complement of the northern mtDNA consensus sequence
 │
-├── tables_all_possible_ORFs_podisma/        
-│   ├── southern_table.tsv
-│   ├── southern_reverse_table.tsv
-│   ├── northern_table.tsv
-│   ├── northern_reverse_table.tsv
-│   ├── all_potential_northern_ORFs.tsv   
-│   ├── all_potential_southern_ORFs.tsv    
-│   ├── true_southern_ORFs.tsv             
-│   ├── true_northern_ORFs.tsv             
-│   ├── true_ORFs_comparison.tsv 
-│   ├── true_ORFs_synonymous_mutations.tsv          
-│   ├── true_ORFs_non_synonymous_mutations.tsv     
-│   ├── filtered_non_synonymous_mutations.tsv   
+├── tables_all_possible_ORFs_podisma/                                
+│   ├── southern_table.tsv                                           #all possible ORFs found on southern consensus sequence 
+│   ├── southern_reverse_table.tsv                                   #all possible ORFs found on southern reverse complementary consensus sequence
+│   ├── northern_table.tsv                                           #all possible ORFs found on northern consensus sequence 
+│   ├── northern_reverse_table.tsv                                   #all possible ORFs found on northern complementary consensus sequence
+│   ├── all_potential_northern_ORFs.tsv                              #combined entries from northern_table.tsv and northern_reverse_table.tsv
+│   ├── all_potential_southern_ORFs.tsv                              #combined entries from southern_table.tsv and southern_reverse_table.tsv
+│   ├── true_southern_ORFs.tsv                                       #true southern ORFs after comparison with annotation
+│   ├── true_northern_ORFs.tsv                                       #true northern ORFs after comparison with annotation
+│   ├── true_ORFs_comparison.tsv                                     #just putting all the northern and southern ORFs side-by-side
+│   ├── true_ORFs_synonymous_mutations.tsv                           #ORFs that experienced synonymous mutations filtered into here
+│   ├── true_ORFs_non_synonymous_mutations.tsv                       #ORFs that experienced non-synonymous mutations put here 
+│   ├── filtered_non_synonymous_mutations.tsv                        #
 │   ├── unfiltered_non_synonymous_mutations_podisma_vs_orthoptera.tsv    
 │   ├── filtered_non_synonymous_mutations_podisma_vs_orthoptera.tsv 
 │   ├── filtered_non_synonymous_mutations_podisma_vs_orthoptera_with_melanoplus.tsv  
