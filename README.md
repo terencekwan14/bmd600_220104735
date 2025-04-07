@@ -15,19 +15,66 @@ The spatial displacement between mitochondrial and chromosomal hybrid zones in P
 ################### Directory after inputing SIFT scores with main dataset ###################
 
 
-bmd600_220104735/
-├── becher_nichols/
-│   ├── ref_11.fasta  
-│   ├── ref_11_reverse.fasta
-│   ├── mitoVarsFreeb12dupsMarked.vcf  
+bmd600_220104735/                                  
+├── becher_nichols/                         
+│   ├── ref_11.fasta                         #template fasta from becher paper
+│   ├── ref_11_reverse.fasta                 #reverse complement of the template fasta
+│   ├── mitoVarsFreeb12dupsMarked.vcf        #vcf containing variant call data from all samples
 │
-├── podisma_samples/
-│   ├── Sample_1.fasta  
-│   ├── Sample_2.fasta  
-│   ├── Sample_3.fasta  
-│   ├── ...
-│   ├── Sample_52.fasta  
-│   ├── combined_raw_podisma_only.fasta  
+├── podisma_samples/                         #all 52 samples you'd get from the becher paper
+│   ├── 1T.fasta  
+│   ├── 2T.fasta  
+│   ├── 3T.fasta  
+│   ├── 4T.fasta  
+│   ├── 5T.fasta  
+│   ├── 6T.fasta  
+│   ├── 7T.fasta  
+│   ├── 8T.fasta  
+│   ├── 9T.fasta  
+│   ├── 10T.fasta  
+│   ├── 11T.fasta  
+│   ├── 12T.fasta  
+│   ├── 13T.fasta  
+│   ├── 14T.fasta  
+│   ├── 15T.fasta  
+│   ├── 16T.fasta
+│   ├── 17T.fasta  
+│   ├── 18T.fasta  
+│   ├── 19T.fasta  
+│   ├── 20T.fasta  
+│   ├── 21T.fasta  
+│   ├── 22T.fasta  
+│   ├── 23T.fasta  
+│   ├── 24T.fasta
+│   ├── 25F.fasta  
+│   ├── 26F.fasta  
+│   ├── 27F.fasta  
+│   ├── 28U.fasta  
+│   ├── 29U.fasta  
+│   ├── 30U.fasta  
+│   ├── 31U.fasta  
+│   ├── 32F.fasta
+│   ├── 33F.fasta  
+│   ├── 34U.fasta  
+│   ├── 35U.fasta  
+│   ├── 36F.fasta  
+│   ├── 37F.fasta  
+│   ├── 38F.fasta  
+│   ├── 39F.fasta  
+│   ├── 40U.fasta
+│   ├── 41U.fasta  
+│   ├── 42U.fasta  
+│   ├── 43U.fasta  
+│   ├── 44U.fasta  
+│   ├── 45U.fasta  
+│   ├── 46U.fasta  
+│   ├── H11.fasta  
+│   ├── H13.fasta
+│   ├── H16.fasta  
+│   ├── H25.fasta  
+│   ├── H26.fasta  
+│   ├── H27.fasta  
+│   ├── combined_raw_podisma_only.fasta            #just a consolidated file of all the samples
 │
 ├── fixed_differences/
 │   ├── filtered_fixed_differences_northern_and_southern.fasta  
@@ -51,7 +98,7 @@ bmd600_220104735/
 │   ├── unfiltered_non_synonymous_mutations_podisma_vs_orthoptera.tsv    
 │   ├── filtered_non_synonymous_mutations_podisma_vs_orthoptera.tsv 
 │   ├── filtered_non_synonymous_mutations_podisma_vs_orthoptera_with_melanoplus.tsv  
-│   ├── filtered_non_synonymous_mutations_with_SIFT_UniProtKB.tsv           # findings from SIFT were manually included here
+│   ├── filtered_non_synonymous_mutations_with_SIFT_UniProtKB.tsv           
 │
 ├── number_of_orthopterans_matching_northern_and_southern.csv  
 │
