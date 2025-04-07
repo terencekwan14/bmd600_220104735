@@ -1,0 +1,24 @@
+gene	amino_acid_position	aligned_amino_acid_number	phryganogryllacris superangulata	ocellarnaca fuscotessellata	ocellarnaca braueri	ocellarnaca nigra	anabropsis maguanensis	longzhouacris mirabilis	ranacris albicornis	gryllotalpa henana	teredorus anhuiensis	paragavialidium hainanense	thoradonta yunnana	bryodema qilianshanense	chorthippus albonemus	leptopternis gracilis	sinopodisma kelloggii	sphingonotus mongolicus	xenocatantops humilis	chorthippus dubius	stenopelmatus typhlops	hilethera xinjiangensis	chorthippus qingzangensis	angulomastax meiospina	china mantispoides	erianthus versicolor	myrmeleomastax wideis	phytomastax pentaspinula	ramburiella turcomana	oedipoda miniata	tympanophyllum maximum	oedipoda caerulescens	poecilimon cretensis	oxytauchira ruficornis	epacromius tergestinus	tagasta tonkinensis	aularches miliaris	euparatettix tridentatus	exothotettix guangxiensis	teredorus guangxiensis	atractomorpha lata	aeropedellus prominemarginis	myrmeleotettix palpalis	dasyhippus peipingensis	phymateus saxosus	euchorthippus cheui	paprides nitidus	duolandrevus obsidianus	vescelia pieli	sphingonotus salinus	acrida oxycephala	phlaeoba angustidorsis	sphingonotus turcmenus	dericorys tibialis	pyrgodera armata	calliptamus coelesyriensis	sphingonotus coerulipes	southern podisma pedestris	northern podisma pedestris
+ATP6	108	111	L	L	L	L	L	L	L	L	M	L	L	L	L	L	L	L	L	L	L	L	L	L	M	L	L	L	L	L	L	M	L	L	L	L	L	L	L	L	L	L	L	L	M	L	L	L	L	L	L	L	L	L	L	L	L	L	M
+ATP8	37	39	S	S	S	S	N	K	K	M	Q	H	N	K	K	K	K	K	K	K	H	K	K	I	K	K	N	M	E	K	T	K	T	K	E	I	K	K	K	K	K	K	K	K	S	K	K	T	Y	K	T	K	K	K	K	K	K	N	S
+ATP8	50	56	-	-	-	-	-	-	N	-	-	-	-	-	-	-	N	-	A	T	-	-	-	-	-	-	-	-	I	-	F	-	-	Y	-	T	-	-	-	K	-	I	T	I	Y	N	I	-	-	-	M	-	-	N	-	I	-	N	S
+COX3	10	10	M	N	N	N	M	L	L	-	M	M	L	L	L	L	L	L	M	L	M	L	L	M	L	L	M	M	L	L	T	L	M	L	L	M	M	M	M	L	L	L	L	L	M	M	L	M	M	L	L	L	L	L	L	L	L	L	M
+CYTB	68	72	A	A	A	V	A	I	I	I	M	I	I	I	V	V	I	V	V	V	D	I	V	I	I	M	I	V	V	I	T	I	A	V	V	I	I	V	I	I	I	V	V	V	I	I	V	A	S	V	I	V	V	V	I	V	V	V	I
+CYTB	365	369	I	I	M	I	L	I	I	S	M	A	L	I	I	T	I	I	I	I	I	M	I	T	I	F	I	I	I	I	I	I	I	I	T	M	M	L	M	T	M	I	I	I	I	I	I	M	V	I	I	I	I	I	M	I	I	I	M
+ND1	251	252	C	C	C	C	C	V	S	S	V	V	S	S	T	T	T	S	S	T	C	S	T	T	T	T	T	S	A	S	C	S	C	T	T	G	I	V	V	V	L	T	T	T	S	T	S	M	V	A	T	T	T	S	S	A	T	V	I
+ND1	293	294	L	L	L	L	L	L	L	L	L	L	L	L	L	L	L	L	L	L	L	L	L	L	L	L	L	L	L	L	L	L	L	L	L	L	L	L	L	L	L	L	L	L	L	L	L	L	L	L	L	L	L	L	L	L	L	L	M
+ND2	136	137	I	I	I	L	I	I	M	I	L	L	I	I	I	I	T	I	V	I	T	I	I	M	L	I	L	M	I	I	V	I	I	M	L	I	I	L	L	L	I	I	I	I	M	I	L	I	I	I	I	I	I	T	I	T	I	T	M
+ND2	251	252	I	L	L	L	S	V	T	L	M	T	L	L	L	L	L	L	I	L	T	L	L	L	M	L	I	M	L	L	S	I	S	L	M	I	T	L	I	M	M	L	L	L	M	L	S	L	I	L	M	L	L	S	I	L	L	T	M
+ND2	270	271	I	M	M	M	M	I	I	L	I	M	I	I	I	I	I	I	L	I	I	I	I	L	M	M	M	M	I	I	L	I	L	M	I	L	M	I	M	I	I	I	I	I	I	I	V	M	F	I	I	M	I	V	I	I	I	I	T
+ND2	332	334	T	A	A	T	T	V	T	T	N	N	N	T	V	T	V	T	V	V	S	T	V	V	I	N	V	T	V	T	V	T	A	I	T	A	A	N	N	N	A	V	V	V	A	V	V	T	I	A	T	V	T	V	T	V	T	V	M
+ND3	14	14	I	I	I	M	L	I	V	L	I	M	L	L	M	L	L	L	L	M	L	L	M	I	V	I	I	I	V	M	L	M	L	V	V	L	L	I	L	I	I	V	V	I	I	I	I	L	L	L	L	L	L	V	M	I	L	I	M
+ND4	88	89	N	Q	Q	Q	N	S	S	S	P	S	S	S	S	S	S	S	P	S	E	S	S	N	F	F	N	N	S	S	V	S	S	S	S	S	S	S	S	S	S	S	S	S	S	S	S	H	N	S	C	F	S	P	S	S	S	S	P
+ND4	158	159	I	I	I	I	V	F	L	V	S	S	L	L	L	L	L	L	L	L	V	L	L	L	I	L	L	L	L	L	I	L	V	L	L	V	L	S	S	S	L	L	L	L	L	L	L	V	I	L	L	L	L	L	L	L	L	F	L
+ND4L	29	29	M	M	M	M	M	I	I	V	I	I	I	I	L	V	I	I	M	L	M	I	L	I	I	I	I	A	I	I	L	I	I	I	I	M	I	I	I	F	I	I	I	I	I	L	I	F	F	I	I	I	I	V	I	V	I	I	M
+ND4L	68	68	L	M	M	M	M	Y	E	I	I	Y	M	E	E	E	E	E	E	E	M	E	E	F	L	I	F	C	G	E	F	E	L	D	S	S	S	F	Y	Y	I	E	E	G	S	E	D	L	N	E	M	N	E	G	E	E	E	E	K
+ND4L	101	101	H	H	H	H	H	H	H	H	E	C	S	H	Y	H	H	H	H	H	H	H	Y	H	H	H	H	H	H	H	H	H	H	H	H	Y	H	C	C	S	C	H	H	H	Y	H	H	Y	H	H	H	H	H	H	H	H	H	H	Y
+ND5	138	141	N	N	N	N	N	S	S	N	N	N	N	N	N	N	S	N	S	S	N	N	N	N	N	N	N	N	S	N	G	N	N	S	N	N	N	N	N	N	N	S	S	S	N	N	G	N	N	N	N	N	N	S	N	S	N	S	G
+ND5	491	498	L	W	W	W	L	S	S	G	F	W	S	S	S	S	S	S	P	P	L	S	S	N	I	S	M	T	P	F	G	F	L	I	S	F	P	-	F	F	F	S	S	S	F	S	S	F	K	S	S	S	S	S	F	S	S	F	V
+ND6	28	28	N	N	N	N	N	L	S	L	S	S	S	S	S	S	S	S	S	S	N	S	S	-	S	S	T	A	S	M	N	M	S	S	S	S	S	S	S	S	S	S	S	S	L	S	S	M	M	L	S	S	S	S	S	S	S	L	S
+ND6	33	33	T	I	I	I	L	I	I	L	S	F	L	I	I	F	I	I	I	I	I	M	I	I	I	M	F	M	I	I	F	I	L	F	I	I	M	M	M	S	L	I	I	I	I	I	I	L	M	I	I	I	I	I	I	I	I	I	M
+ND6	135	140	S	N	N	N	T	I	V	I	M	I	-	M	M	M	M	M	M	M	M	M	M	Y	L	M	H	C	T	M	L	M	Q	M	I	F	K	L	M	M	S	L	M	T	N	M	M	M	I	M	M	M	M	N	N	M	M	V	I

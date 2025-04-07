@@ -12,7 +12,7 @@ Conclusion: The northern mitochondrial lineage has accumulated non-synonymous mu
 Significance: Mitochondrial protein divergence provides molecular evidence for selective cline displacement and advances understanding of mitotype-driven introgression.
 The spatial displacement between mitochondrial and chromosomal hybrid zones in Podisma pedestris constitutes a well-documented example of differential introgression across unlinked genomic regions. Following postglacial recolonisation, both mitochondrial and chromosomal clines are believed to have initially coincided at a common secondary contact zone ≈10,000 years ago. However, subsequent asymmetrical introgression has resulted in a northward displacement of the mitochondrial cline by ≈5km relative to the chromosomal cline. Such spatial displacement is inconsistent with expectations under neutral diffusion models and instead supports directional selection acting on the southern mitochondrial lineage. Phylogenetic comparisons of substitution rates between the northern and southern haplotypes suggest that southern variants confer a ≈1% survival advantage to individuals carrying them. Prior studies by the Nichols group have identified fixed polymorphisms within the mitochondrial genome, but their functional significance has not been explored. To investigate the molecular basis of mitotype divergence, this study identified 23 non-synonymous mutations between the southern and northern mitochondrial genomes and inferred their relative likelihood of deleteriousness from cross-species conservation at corresponding residues. Evaluation of each mitotype-specific amino acid variant in the context of related taxa enables distinction between residues likely to impair protein function and those consistent with ancestral or tolerated states. By integrating sequence divergence with measures of evolutionary constraint, this analysis offers a molecular perspective on the inferred selective advantage of the southern haplotype and advances current understanding of the role of mitochondrial variation in shaping patterns of asymmetric introgression.
 
-################### Directory after inputing SIFT scores with main dataset ###################
+################### Directory ###################
 
 
 bmd600_220104735/                                  
@@ -95,13 +95,15 @@ bmd600_220104735/
 │   ├── true_ORFs_comparison.tsv                                     #just putting all the northern and southern ORFs side-by-side
 │   ├── true_ORFs_synonymous_mutations.tsv                           #ORFs that experienced synonymous mutations filtered into here
 │   ├── true_ORFs_non_synonymous_mutations.tsv                       #ORFs that experienced non-synonymous mutations put here 
-│   ├── filtered_non_synonymous_mutations.tsv                        #
-│   ├── unfiltered_non_synonymous_mutations_podisma_vs_orthoptera.tsv    
-│   ├── filtered_non_synonymous_mutations_podisma_vs_orthoptera.tsv 
-│   ├── filtered_non_synonymous_mutations_podisma_vs_orthoptera_with_melanoplus.tsv  
-│   ├── filtered_non_synonymous_mutations_with_SIFT_UniProtKB.tsv           
+│   ├── filtered_non_synonymous_mutations.tsv                        #all amino acid differences of the non-synonymous mutations between northern and southern consensus sequences
+│   ├── unfiltered_non_synonymous_mutations_podisma_vs_orthoptera.tsv                      #all entries for orthoptera where podisma has a non-synonymous mutation  
+│   ├── filtered_non_synonymous_mutations_podisma_vs_orthoptera.tsv                        #has information on filtered orthopteran similarities with non-synonymous entries of podisma            
+│   ├── filtered_non_synonymous_mutations_podisma_vs_orthoptera_with_melanoplus.tsv        #has information on filtered orthopteran similarities with non-synonymous entries of podisma with melanoplus
+│   ├── filtered_non_synonymous_mutations_with_SIFT_UniProtKB.tsv                          #has information on filtered orthopteran similarities with non-synonymous entries of podisma with SIFT and UniProt entries for each variant
 │
-├── number_of_orthopterans_matching_northern_and_southern.csv  
+├── number_of_orthopterans_matching_northern_and_southern.csv                              #this excel sheet is used to calculate the quassi-binomial GLM model
+│
+├── filtered_non_synonymous_mutations_podisma_vs_orthoptera_proportion.xlsx                #the final completed excel file containing all filtered information and more. you cannot find this on the code file as I manually did this out of interest...
 │
 ├── aligned_proteins_with_orthopterans/                             #all fasta files with northern and southern mt proteins aligned with homologous sequences of 55 orthopterans
 │   ├── ATP6.fasta
@@ -115,3 +117,5 @@ bmd600_220104735/
 │   ├── ND4L.fasta
 │   ├── ND5.fasta
 │   ├── ND6.fasta
+│
+├── codes_with_instructions.txt
