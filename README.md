@@ -77,10 +77,11 @@ bmd600_220104735/
 │   ├── combined_raw_podisma_only.fasta            #just a consolidated file of all the samples
 │
 ├── fixed_differences/
-│   ├── filtered_fixed_differences_northern_and_southern.fasta  
+│   ├── filtered_fixed_differences_northern_and_southern.fasta       #clearly states the fixed difference between northern and southern samples
+│   ├── fixed_differences_northern_and_southern.fasta                #the entry for every sample only at those fixed sites
 │
-├── northern_mtDNA.fasta                           
-├── northern_mtDNA_reverse.fasta  
+├── northern_mtDNA.fasta                           #the northern mtDNA consensus sequence
+├── northern_mtDNA_reverse.fasta                   #reverse complement of the northern mtDNA consensus sequence
 │
 ├── tables_all_possible_ORFs_podisma/        
 │   ├── southern_table.tsv
