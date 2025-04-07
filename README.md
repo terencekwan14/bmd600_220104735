@@ -74,14 +74,14 @@ bmd600_220104735/
 │   ├── H25.fasta  
 │   ├── H26.fasta  
 │   ├── H27.fasta  
-│   ├── combined_raw_podisma_only.fasta            #just a consolidated file of all the samples
+│   ├── combined_raw_podisma_only.fasta                              #just a consolidated file of all the samples
 │
 ├── fixed_differences/
 │   ├── filtered_fixed_differences_northern_and_southern.fasta       #clearly states the fixed difference between northern and southern samples
 │   ├── fixed_differences_northern_and_southern.fasta                #the entry for every sample only at those fixed sites
 │
-├── northern_mtDNA.fasta                           #the northern mtDNA consensus sequence
-├── northern_mtDNA_reverse.fasta                   #reverse complement of the northern mtDNA consensus sequence
+├── northern_mtDNA.fasta                                             #the northern mtDNA consensus sequence
+├── northern_mtDNA_reverse.fasta                                     #reverse complement of the northern mtDNA consensus sequence
 │
 ├── tables_all_possible_ORFs_podisma/        
 │   ├── southern_table.tsv
@@ -103,7 +103,7 @@ bmd600_220104735/
 │
 ├── number_of_orthopterans_matching_northern_and_southern.csv  
 │
-├── aligned_proteins_with_orthopterans/       
+├── aligned_proteins_with_orthopterans/                             #all fasta files with northern and southern mt proteins aligned with homologous sequences of 55 orthopterans
 │   ├── ATP6.fasta
 │   ├── ATP8.fasta
 │   ├── COX3.fasta
